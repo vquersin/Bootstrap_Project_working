@@ -9,105 +9,238 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="position-relative">
-        <div class="col">
-            <div class="col pt-3 pb-3 text-center fixed-top fs-3 bg-light navbar-light border-bottom shadow-sm">
-                <a href="" class="navbar-brand m-4">Home</a>
-                <a href="" class="navbar-brand m-4">Features</a>
-                <a href="" class="navbar-brand m-4">Pricing</a>
-            </div>
-            <video src="./video.mp4" type="video/mp4" playsinline="playsinline" loop="loop" autoplay="autoplay" muted="muted" class="mw-100"></video>
-            <div class="container">
-                <div class="w-100 text-center position-absolute start-50 top-50 translate-middle">
-                    <div class="text-white">
-                        <p class="lead fs-3 fw-bolder mb-0">The futur is now</p>
+    
+    <!-- <nav class="navbar navbar-expand-lg fs-3 bg-light navbar-light border-bottom shadow-sm">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>            
+    
+        <div class="collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Pricing</a>
+                </li>
+            </ul>
+        </div>
+    </nav> -->
+    <header class="pb-5 w-100 h-100">
+        <!-- <div class="col"> -->
+            
+            <video src="./video.mp4" type="video/mp4" playsinline="playsinline" loop="loop" autoplay="autoplay" muted="muted" class="w-100 h-50 position-absolute"></video>
+            <!-- <div class="container"> -->
+                <!-- <div class="w-100 text-center position-absolute start-50 top-50 translate-middle"> -->
+                <div class="pt-5 w-100 h-100 text-center text-white position-relative col justify-content-center align-items-center">   
+                    <!-- <div class="text-white"> -->
+                        <p class="lead fs-3 fw-bolder mb-0 pt-5">The futur is now</p>
                         <h1 class="display-3 fw-bold">The Best Hosting, for you.</h1>
                         <p class="lead fs-3 fw-bold mb-0">Secure and reliable</p>
-                        <button class="btn btn-primary mt-5">Explore our features</button>
-                    </div>
+                        <button class="btn btn-lg btn-sm btn-primary mt-5">Explore our features</button>
+                    <!-- </div> -->
+                </div>
+            <!-- </div> -->
+        <!-- </div> -->
+    </header>
+    <!-- SERVER -->
+    <div class="row justify-content-center align-content-center text-center mt-5 mb-0">
+        <p class="lead fs-2 mt-5">You can lean on us</p>
+        <h2 class="display-4 pb-5">Our server are robust.</h2>
+            <div class="card border-0"style="width: 25rem;">
+                <img src="./chat.svg" alt="chat-image" class="card-img-top object-fit-center h-25">
+                <div class="card-body h-0">
+                    <p class="lead fw-bold">Lorem, ipsum dolor.</p>
+                    <p class="lead px-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque molestias ullam quos sunt placeat consectetur.</p>
                 </div>
             </div>
-        </div>
-    </header>
-    <div class="container-fluid text-center mt-5 mb-2">
-        <p class="lead fs-2">You can lean on us</p>
-        <h2 class="display-4 pb-5">Our server are robust.</h2>
-        <div class="row">
-            <div class="col-4">
-                <img src="./chat.svg" alt="chat-image" class="img-fluid" style="width: 100px;">
-                <p class="lead fw-bold">Lorem, ipsum dolor.</p>
-                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque molestias ullam quos sunt placeat consectetur.</p>
+            <div class="card border-0"style="width: 25rem;">
+                <img src="./coding.svg" alt="chat-image" class="card-img-top object-fit-contain h-25">
+                <div class="card-body h-0">
+                    <p class="lead fw-bold">Lorem, ipsum dolor.</p>
+                    <p class="lead px-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque molestias ullam quos sunt placeat consectetur.</p>
+                </div>
             </div>
-            <div class="col-4">
-                <img src="./coding.svg" alt="chat-image" class="img-fluid" style="width: 100px;">
-                <p class="lead fw-bold">Lorem, ipsum dolor.</p>
-                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque molestias ullam quos sunt placeat consectetur.</p>
+            <div class="card border-0"style="width: 25rem;">
+                <img src="./transfer.svg" alt="chat-image" class="card-img-top object-fit-contain h-25">
+                <div class="card-body h-0">
+                    <p class="lead fw-bold">Lorem, ipsum dolor.</p>
+                    <p class="lead px-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque molestias ullam quos sunt placeat consectetur.</p>
+                </div>
             </div>
-            <div class="col-4">
-                <img src="./transfer.svg" alt="chat-image" class="img-fluid" style="width: 100px;">
-                <p class="lead fw-bold">Lorem, ipsum dolor.</p>
-                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque molestias ullam quos sunt placeat consectetur.</p>
-            </div>
-        </div>
+        
     </div>
-    <div class="container-fluid text-center mt-5 mb-3">
+    <!-- QUALITY -->
+    <div class="row justify-content-center text-center gy-3 gx-0 mb-5">
         <h3 class="display-4">Quality or nothing</h3>
         <p class="lead">Our rewards</p>
-        <div class="container-fluid my-5">
-            <div class="row justify-content-center">
-                <div class="col-4 position-relative text-start rounded bg-dark shadow px-5 py-5">
+        <div class="row justify-content-center">
+            <div class="card bg-dark text-white text-start mx-3 my-3" style="width: 25rem;">
+                <div class="card-body">
                     <p class="lead fw-bold fs-2 text-white">Best Hosting Award 2022 &#127942;</p>
                     <p class="lead text-white fs-6 pb-3 text-break">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic vero ea molestias minus distinctio minima?</p>
-                    <button class="btn position-absolute bottom-0 border-light text-white mt-5 mb-4">Look at the ranking</button>
+                    <button class="btn btn-sm border-light text-white mt-auto">Look at the ranking</button>
                 </div>
-                <div class="col-1">
-                </div>
-                <div class="col-4 position-relative text-start rounded bg-warning shadow px-5 py-5">
+            </div>
+            <div class="card bg-warning text-dark text-start mx-3 my-3" style="width: 25rem;">
+                <div class="card-body">
                     <p class="lead fw-bold fs-2 text-black">Fastest servers &#128168;</p>
                     <p class="lead fs-6 pb-3 text-break">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic vero ea molestias minus distinctio minima?</p>
-                    <button class="btn position-absolute bottom-0 border-dark text-dark mt-5 mb-4">Look at the ranking</button>
+                    <button class="btn btn-sm border-dark text-dark mt-auto">Look at the ranking</button>  
                 </div>
             </div>
         </div>
-        <div class="container-fluid my-5">
-            <div class="row justify-content-center">
-                <div class="col-4 position-relative text-start rounded bg-primary shadow px-5 py-5">
+        <div class="row justify-content-center">
+            <div class="card bg-primary text-white text-start mx-3 my-3" style="width: 25rem;">
+                <div class="card-body">
                     <p class="lead fw-bold fs-2 text-white">Best support 2019/2020 ☎️</p>
                     <p class="lead text-white fs-6 pb-3 text-break">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic vero ea molestias minus distinctio minima?</p>
-                    <button class="btn position-absolute bottom-0 border-light text-white mt-5 mb-4">Look at the ranking</button>
+                    <button class="btn btn-sm border-light text-white mt-auto">Look at the ranking</button>
                 </div>
-                <div class="col-1">
-                </div>
-                <div class="col-4 position-relative text-start rounded bg-light shadow px-5 py-5">
+            </div>
+            <div class="card bg-light shadow text-dark text-start mx-3 my-3" style="width: 25rem;">
+                <div class="card-body">
                     <p class="lead fw-bold fs-2 text-black text-break">Groundbreaking low prices 💸</p>
                     <p class="lead fs-6 pb-3 text-break">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic vero ea molestias minus distinctio minima?</p>
-                    <button class="btn position-absolute bottom-0 border-dark text-dark mt-5 mb-4">Look at the ranking</button>
+                    <button class="btn btn-sm border-dark text-dark mt-auto">Look at the ranking</button> 
                 </div>
             </div>
         </div>
     </div>
+    <!-- PARALLAX -->
     <div class="container-fluid parallax-section text-center bg-dark text-white py-5">
         <h4 class="display-4">It's now or never.</h4>
         <p class="lead">You can do it.</p>
-        <button class="btn rounded bg-light text-dark">Boost your career &#128293;</button>
+        <button class="btn btn-sm rounded bg-light text-dark">Boost your career &#128293;</button>
     </div>
-    <div class="container-fluid text-center my-5">
+    <!-- PROJECTS -->
+    <div class="row justify-content-center text-center my-5">
         <h5 class="display-4">We are hosting those projects</h5>
         <p class="lead">World Class Websites</p>
-        <div class="row m-4 justify-content-center">
-            <div class="col-3 m-3 bg-light shadow-sm">
-                <img class="img-fluid" style="width: 100%;" src="./robot.jpg" alt="robot">
-                <p class="lead">Projet</p>
+        <div class="row justify-content-center  gx-0">
+            <div class="card text-start m-2" style="width: 20rem;">
+                <img class="card-img-top object-fit-contain" src="./robot.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="lead fs-5 fw-bold mt-4">Projet</p>
+                    <p class="lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ut perspiciatis. Assumenda cumque unde laudantium quisquam placeat ab, eveniet nobis.</p>
+                    <button class="btn btn-sm rounded bg-primary text-white my-3">Take a look at it</button>
+                </div>
             </div>
-            <div class="col-3 m-3 bg-light shadow-sm">
-                <img class="img-fluid" style="width: 100%;" src="./robot.jpg" alt="robot">
-                <p class="lead">Projet</p>
+            <div class="card text-start m-2" style="width: 20rem;">
+                <img class="card-img-top" src="./purpleish-pic.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="lead fs-5 fw-bold mt-4">Projet</p>
+                    <p class="lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ut perspiciatis. Assumenda cumque unde laudantium quisquam placeat ab, eveniet nobis.</p>
+                    <button class="btn btn-sm rounded bg-primary text-white my-3">Take a look at it</button>
+                </div>
             </div>
-            <div class="col-3 m-3 bg-light shadow-sm">
-                <img class="img-fluid" style="width: 100%;" src="./robot.jpg" alt="robot">
-                <p class="lead">Projet</p>
+            <div class="card text-start m-2" style="width: 20rem;">
+                <img class="card-img-top" src="./codebase.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="lead fs-5 fw-bold mt-4">Projet</p>
+                    <p class="lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ut perspiciatis. Assumenda cumque unde laudantium quisquam placeat ab, eveniet nobis.</p>
+                    <button class="btn btn-sm rounded bg-primary text-white my-3">Take a look at it</button>
+                </div>
             </div>
         </div>
+        <div class="row justify-content-center gx-0">
+            <div class="card text-start m-2" style="width: 20rem;">
+                <img class="card-img-top" src="./laptop.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="lead fs-5 fw-bold mt-4">Projet</p>
+                    <p class="lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ut perspiciatis. Assumenda cumque unde laudantium quisquam placeat ab, eveniet nobis.</p>
+                    <button class="btn btn-sm rounded bg-primary text-white my-3">Take a look at it</button>
+                </div>
+            </div>
+            <div class="card text-start m-2" style="width: 20rem;">
+                <img class="card-img-top" src="./bright-laptop.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="lead fs-5 fw-bold mt-4">Projet</p>
+                    <p class="lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ut perspiciatis. Assumenda cumque unde laudantium quisquam placeat ab, eveniet nobis.</p>
+                    <button class="btn btn-sm rounded bg-primary text-white my-3">Take a look at it</button>
+                </div>
+            </div>
+            <div class="card text-start m-2" style="width: 20rem;">
+                <img class="card-img-top" src="./desk-work.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="lead fs-5 fw-bold mt-4">Projet</p>
+                    <p class="lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ut perspiciatis. Assumenda cumque unde laudantium quisquam placeat ab, eveniet nobis.</p>
+                    <button class="btn btn-sm rounded bg-primary text-white my-3">Take a look at it</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PRICING -->
+    <div class="row justify-content-center text-center mx-3">
+        <h5 class="display-4">Check our pricing tables.</h5>
+        <p class="lead">We suit your needs</p>
+            <div class="card bg-dark text-white mx-3 my-3" style="width: 18rem;">
+                <div class="card-body">
+                    <p class="lead fs-1 text-start">Basic</p>
+                    <p class="lead fs-6 text-start"><span class="fs-1">$9</span>/month</p>
+                    <ul class="text-start">
+                        <li class="fs-6">1 websites</li>
+                        <li class="fs-6">1 GB storage</li>
+                        <li class="fs-6">10 databases</li>
+                        <li class="fs-6">Free 1-click WordPress Install</li>
+                        <li class="fs-6">24/7 support</li>
+                        <li class="fs-6">Free domain (€9.99/yr value)</li>
+                    </ul>
+                    <button class="w-100 btn btn-sm rounded border-light text-white mt-5">Select</button>
+                </div>
+            </div>
+            <div class="card bg-success text-white mx-3 my-3" style="width: 18rem;">
+                <div class="card-body">
+                    <p class="lead fs-1 text-start">Pro</p>
+                    <p class="lead fs-6 text-start"><span class="fs-1">$19</span>/month</p>
+                    <ul class="text-start">
+                        <li class="fs-6">20 websites</li>
+                        <li class="fs-6">1 TO storage</li>
+                        <li class="fs-6">100 databases</li>
+                        <li class="fs-6">Online Store</li>
+                        <li class="fs-6">Unmetered bandwidth</li>
+                        <li class="fs-6">Free 1-click WordPress Install</li>
+                        <li class="fs-6">24/7 support</li>
+                        <li class="fs-6">Free domain (€9.99/yr value)</li>
+                    </ul>
+                    <button class="w-100 btn btn-sm rounded border-light text-white">Select</button>
+                </div>
+            </div>
+              <div class="card bg-warning text-dark mx-3 my-3" style="width: 18rem;">
+                <div class="card-body">
+                    <p class="lead fs-1 text-start">Expert</p>
+                    <p class="lead fs-6 text-start"><span class="fs-1">$39</span>/month</p>
+                    <ul class="text-start">
+                        <li class="fs-6">Unlimited websites</li>
+                        <li class="fs-6">Unlimited storage</li>
+                        <li class="fs-6">Unlimited databases</li>
+                        <li class="fs-6">Online Store</li>
+                        <li class="fs-6">Unmetered bandwidth</li>
+                        <li class="fs-6">Free 1-click WordPress Install</li>
+                        <li class="fs-6">24/7 support</li>
+                        <li class="fs-6">Free domain (€9.99/yr value)</li>
+                    </ul>
+                    <button class="w-100 btn btn-sm rounded border-dark text-dark">Select</button> 
+                </div>
+            </div>
+    </div>
+    <!-- CONTACT  -->
+    <div class="row justify-content-center ">
+        <h6 class="display-4 mt-5 text-center"> Contact-us</h6>
+        <form class="w-50 my-5">
+            <div class="form-group text-start">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control shadow" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email.</small>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control shadow" id="exampleInputTextarea" row="3" placeholder="Your message ..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary mt-3">Submit</button>
+          </form>
     </div>
 
 
